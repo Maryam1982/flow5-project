@@ -1,20 +1,14 @@
-﻿body
-{
-    margin-left:0px;
-    margin-right:0px;
-    padding-left:0px;
-    padding-right:0px;
+﻿body {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-MediumItalic.eot');
-    src: local('Circular Std Medium Italic'), 
-         local('CircularStd-MediumItalic'), 
-         url('CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'), 
-         url('CircularStd-MediumItalic.woff2') format('woff2'), 
-         url('CircularStd-MediumItalic.woff') format('woff'), 
-         url('CircularStd-MediumItalic.ttf') format('truetype');
+    src: local('Circular Std Medium Italic'), local('CircularStd-MediumItalic'), url('CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'), url('CircularStd-MediumItalic.woff2') format('woff2'), url('CircularStd-MediumItalic.woff') format('woff'), url('CircularStd-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
@@ -30,11 +24,7 @@
 @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-Medium.eot');
-    src: local('Circular Std Medium'), local('CircularStd-Medium'), 
-         url('../fonts/Circular-Std/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/Circular-Std/CircularStd-Medium.woff2') format('woff2'), 
-         url('../fonts/Circular-Std/CircularStd-Medium.woff') format('woff'), 
-         url('../fonts/Circular-Std/CircularStd-Medium.ttf') format('truetype');
+    src: local('Circular Std Medium'), local('CircularStd-Medium'), url('../fonts/Circular-Std/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular-Std/CircularStd-Medium.woff2') format('woff2'), url('../fonts/Circular-Std/CircularStd-Medium.woff') format('woff'), url('../fonts/Circular-Std/CircularStd-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -42,11 +32,7 @@
 @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-Bold.eot');
-    src: local('Circular Std Bold'), local('CircularStd-Bold'), 
-         url('../fonts/Circular-Std/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/Circular-Std/CircularStd-Bold.woff2') format('woff2'), 
-         url('../fonts/Circular-Std/CircularStd-Bold.woff') format('woff'), 
-         url('../fonts/Circular-Std/CircularStd-Bold.ttf') format('truetype');
+    src: local('Circular Std Bold'), local('CircularStd-Bold'), url('../fonts/Circular-Std/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular-Std/CircularStd-Bold.woff2') format('woff2'), url('../fonts/Circular-Std/CircularStd-Bold.woff') format('woff'), url('../fonts/Circular-Std/CircularStd-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -54,11 +40,7 @@
 @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-BlackItalic.eot');
-    src: local('Circular Std Black Italic'), local('CircularStd-BlackItalic'), 
-         url('../fonts/Circular-Std/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/Circular-Std/CircularStd-BlackItalic.woff2') format('woff2'), 
-         url('../fonts/Circular-Std/CircularStd-BlackItalic.woff') format('woff'), 
-         url('../fonts/Circular-Std/CircularStd-BlackItalic.ttf') format('truetype');
+    src: local('Circular Std Black Italic'), local('CircularStd-BlackItalic'), url('../fonts/Circular-Std/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular-Std/CircularStd-BlackItalic.woff2') format('woff2'), url('../fonts/Circular-Std/CircularStd-BlackItalic.woff') format('woff'), url('../fonts/Circular-Std/CircularStd-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
@@ -66,11 +48,7 @@
 @font-face {
     font-family: 'Circular Std Book';
     src: url('CircularStd-BookItalic.eot');
-    src: local('Circular Std Book Italic'), local('CircularStd-BookItalic'), 
-         url('../fonts/Circular-Std/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/Circular-Std/CircularStd-BookItalic.woff2') format('woff2'), 
-         url('../fonts/Circular-Std/CircularStd-BookItalic.woff') format('woff'), 
-         url('../fonts/Circular-Std/CircularStd-BookItalic.ttf') format('truetype');
+    src: local('Circular Std Book Italic'), local('CircularStd-BookItalic'), url('../fonts/Circular-Std/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular-Std/CircularStd-BookItalic.woff2') format('woff2'), url('../fonts/Circular-Std/CircularStd-BookItalic.woff') format('woff'), url('../fonts/Circular-Std/CircularStd-BookItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -78,11 +56,7 @@
 @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-BoldItalic.eot');
-    src: local('Circular Std Bold Italic'), local('CircularStd-BoldItalic'), 
-         url('../fonts/Circular-Std/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/Circular-Std/CircularStd-BoldItalic.woff2') format('woff2'), 
-         url('../fonts/Circular-Std/CircularStd-BoldItalic.woff') format('woff'), 
-         url('../fonts/Circular-Std/CircularStd-BoldItalic.ttf') format('truetype');
+    src: local('Circular Std Bold Italic'), local('CircularStd-BoldItalic'), url('../fonts/Circular-Std/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular-Std/CircularStd-BoldItalic.woff2') format('woff2'), url('../fonts/Circular-Std/CircularStd-BoldItalic.woff') format('woff'), url('../fonts/Circular-Std/CircularStd-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
@@ -90,17 +64,13 @@
 @font-face {
     font-family: 'Circular Std Book';
     src: url('CircularStd-Book.eot');
-    src: local('Circular Std Book'), local('CircularStd-Book'), 
-         url('../fonts/Circular-Std/CircularStd-Book.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/Circular-Std/CircularStd-Book.woff2') format('woff2'), 
-         url('../fonts/Circular-Std/CircularStd-Book.woff') format('woff'), 
-         url('../fonts/Circular-Std/CircularStd-Book.ttf') format('truetype');
+    src: local('Circular Std Book'), local('CircularStd-Book'), url('../fonts/Circular-Std/CircularStd-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular-Std/CircularStd-Book.woff2') format('woff2'), url('../fonts/Circular-Std/CircularStd-Book.woff') format('woff'), url('../fonts/Circular-Std/CircularStd-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 
-header-heading{
+header-heading {
     font-size: 38px;
     font-family: "Source Sans Pro";
     color: rgb(0, 0, 0);
@@ -116,7 +86,6 @@ section-title {
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
-
 }
 
 sub-section-title {
@@ -141,124 +110,129 @@ header {
     height: 624px;
 }
 
-
-header div.container-fluid {
-    margin: 0;
+div.container-fluid {
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-header div.container-fluid div.row {
+
+    div.container-fluid header {
         margin: 0;
-}
-
-header div.container-fluid div.row div.col-md-3 div.logo {
-        margin-top: 17px;
-}
-
-
-header div.container-fluid div.row div.col-md-3.menu_items ul {
-     float: right;
-     margin-top: 52px;
-     
-}
-header div.container-fluid div.row div.col-md-3 ul li{
-    display:inline-block; 
-    margin-right:10px;
-}
-
-header div.container-fluid div.row div.col-md-3 ul li a {
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 18px;
-    font-family: 'Circular Std';
-    font-weight: 500;
-    font-style: normal;
-    color: white;
-}
-
-    header div.container-fluid div.row div.col-md-6 p.header-heading {
-        font-size: 38px;
-        font-family: 'Source Sans Pro black';
-        color: rgb(0, 0, 0);
-        text-align: left;
-        padding-top: 198px;
-        padding-bottom: 0px;
-        line-height: 1.2;
     }
 
-    header div.container-fluid div.row div.col-md-6 p.body-text {
-        font-size: 19px;
-        font-family: 'Circular Std Book';
-        color: rgb(0, 0, 0);
-        text-align: left;
-        line-height: 1.421;
-    }
+        div.container-fluid header div.row {
+            margin: 0;
+        }
 
-    header div.container-fluid div.row div.col-md-6 input#email {
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgb(235, 235, 235);
-        border-radius: 22.5px;
-        background-color: rgb(247, 247, 247);
-        top: 509px;
-        width: 368px;
-        height: 47px;
-        z-index: 13;
-        float: left;
-        padding-left: 31px;
-        margin-top: 27px;
-    }
+            div.container-fluid header div.row div.col-md-3 div.logo {
+                margin-top: 17px;
+            }
 
-    header div.container-fluid div.row div.col-md-6 input#submit {
-        background-color: rgb(239, 217, 20);
-        top: 511px;
-        width: 221px;
-        height: 45px;
-        z-index: 16;
-        margin-left: 10px;
-        border-color: rgb(239, 217, 20);
-        border-radius: 22.5px;
-        border-style: solid;
-        border-width: 1px;
-        font-family: 'Circular Std Bold';
-        font-size: 16px;
-        text-align: center;
-        margin-top: 27px;
-        text-transform: uppercase;
-        line-height: 1.5;
-    }
 
-.container-fluid#sec-2 h1 {
+            div.container-fluid header div.row div.col-md-3.menu_items ul {
+                float: right;
+                margin-top: 52px;
+            }
+
+            div.container-fluid header div.row div.col-md-3 ul li {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+                div.container-fluid header div.row div.col-md-3 ul li a {
+                    display: inline-block;
+                    margin-right: 10px;
+                    font-size: 18px;
+                    font-family: 'Circular Std';
+                    font-weight: 500;
+                    font-style: normal;
+                    color: white;
+                }
+
+            div.container-fluid header div.row div.col-md-6 p.header-heading {
+                font-size: 38px;
+                font-family: 'Source Sans Pro black';
+                color: rgb(0, 0, 0);
+                text-align: left;
+                padding-top: 198px;
+                padding-bottom: 0px;
+                line-height: 1.2;
+            }
+
+            div.container-fluid header div.row div.col-md-6 p.body-text {
+                font-size: 19px;
+                font-family: 'Circular Std Book';
+                color: rgb(0, 0, 0);
+                text-align: left;
+                line-height: 1.421;
+            }
+
+            div.container-fluid header div.row div.col-md-6 input#email {
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(235, 235, 235);
+                border-radius: 22.5px;
+                background-color: rgb(247, 247, 247);
+                top: 509px;
+                width: 368px;
+                height: 47px;
+                z-index: 13;
+                float: left;
+                padding-left: 31px;
+                margin-top: 27px;
+            }
+
+            div.container-fluid header div.row div.col-md-6 input#submit {
+                background-color: rgb(239, 217, 20);
+                top: 511px;
+                width: 221px;
+                height: 45px;
+                z-index: 16;
+                margin-left: 10px;
+                border-color: rgb(239, 217, 20);
+                border-radius: 22.5px;
+                border-style: solid;
+                border-width: 1px;
+                font-family: 'Circular Std Bold';
+                font-size: 16px;
+                text-align: center;
+                margin-top: 27px;
+                text-transform: uppercase;
+                line-height: 1.5;
+            }
+
+#sec-2 h1 {
     font-family: 'Source Sans Pro black';
     font-size: 33px;
     text-align: center;
     margin-top: 198px;
 }
 
-.container-fluid#sec-2 h1 span {
+    #sec-2 h1 span {
         color: rgb(242, 17, 118);
+    }
 
-}
-
-.container-fluid#sec-2 h1 span {
+    #sec-2 h1 span {
         color: rgb(242, 17, 118);
-}
+    }
 
-.container-fluid#sec-2 div.row {
+#sec-2 div.row {
     margin-top: 66px;
 }
 
-.container-fluid#sec-2 div.row div.col-md-4 ul {
-    margin-top: 25px;
-    list-style: none;
-}
-
-    .container-fluid#sec-2 div.row div.col-md-4 div {
-        text-align:center;
+    #sec-2 div.row div.col-md-4 ul {
+        margin-top: 25px;
+        list-style: none;
     }
 
-    .container-fluid#sec-2 div.row div.col-md-4 input {
-        background-color: rgb(239, 217, 20);
+    #sec-2 div.row div.col-md-4 div {
+        text-align: center;
+    }
+
+    #sec-2 div.row div.col-md-4 input {
         top: 511px;
+        background-color: rgb(239, 217, 20);
         width: 221px;
         height: 45px;
         z-index: 16;
@@ -275,176 +249,175 @@ header div.container-fluid div.row div.col-md-3 ul li a {
         line-height: 1.5;
     }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(1) ul li::before {
-    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgb(4, 154, 186); /* Change the color */
-    font-weight: bolder; /* If you want it to be bold */
-    font-size: 25px;
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
+    #sec-2 div.row div.col-md-4:nth-child(1) ul li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(4, 154, 186); /* Change the color */
+        font-weight: bolder; /* If you want it to be bold */
+        font-size: 25px;
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(2) ul li::before {
-    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgb(242, 47, 118); /* Change the color */
-    font-weight: bolder; /* If you want it to be bold */
-    font-size: 25px;
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
+    #sec-2 div.row div.col-md-4:nth-child(2) ul li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(242, 47, 118); /* Change the color */
+        font-weight: bolder; /* If you want it to be bold */
+        font-size: 25px;
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(3) ul li::before {
-    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgb(141, 38, 165); /* Change the color */
-    font-weight: bolder; /* If you want it to be bold */
-    font-size: 25px;
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
+    #sec-2 div.row div.col-md-4:nth-child(3) ul li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(141, 38, 165); /* Change the color */
+        font-weight: bolder; /* If you want it to be bold */
+        font-size: 25px;
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4 ul li {
-    margin-top: 0px;
-    font-size: 16px;
-    font-family: "Circular Std Book";
-    color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: left;
-}
+    #sec-2 div.row div.col-md-4 ul li {
+        margin-top: 0px;
+        font-size: 16px;
+        font-family: "Circular Std Book";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: left;
+    }
 
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(1) h3 {
-    font-size: 20px;
-    font-family: "Circular Std";
-    color: rgb(4, 154, 186);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    margin-top: 39px;
-}
+    #sec-2 div.row div.col-md-4:nth-child(1) h3 {
+        font-size: 20px;
+        font-family: "Circular Std";
+        color: rgb(4, 154, 186);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 39px;
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(2) h3 {
-    font-size: 20px;
-    font-family: "Circular Std";
-    color: rgb(244, 61, 131);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    margin-top:51px;
-}
+    #sec-2 div.row div.col-md-4:nth-child(2) h3 {
+        font-size: 20px;
+        font-family: "Circular Std";
+        color: rgb(244, 61, 131);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 51px;
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(3) h3 {
-    font-size: 20px;
-    font-family: "Circular Std";
-    color: rgb(173, 39, 167);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    margin-top:20px;
-}
+    #sec-2 div.row div.col-md-4:nth-child(3) h3 {
+        font-size: 20px;
+        font-family: "Circular Std";
+        color: rgb(173, 39, 167);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 20px;
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(1) p {
-    font-size: 15px;
-    font-family: "Circular Std Book";
-    color: rgb(4, 154, 186);
-    font-style: italic;
-    line-height: 1.6;
-    text-align: center;
-    margin-top:55px;
-}
+    #sec-2 div.row div.col-md-4:nth-child(1) p {
+        font-size: 15px;
+        font-family: "Circular Std Book";
+        color: rgb(4, 154, 186);
+        font-style: italic;
+        line-height: 1.6;
+        text-align: center;
+        margin-top: 55px;
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(2) p {
-    font-size: 15px;
-    font-family: "Circular Std Book";
-    color: rgb(243, 49, 123);
-    font-style: italic;
-    line-height: 1.6;
-    text-align: center;
-}
+    #sec-2 div.row div.col-md-4:nth-child(2) p {
+        font-size: 15px;
+        font-family: "Circular Std Book";
+        color: rgb(243, 49, 123);
+        font-style: italic;
+        line-height: 1.6;
+        text-align: center;
+    }
 
-.container-fluid#sec-2 div.row div.col-md-4:nth-child(3) p {
-    font-size: 15px;
-    font-family: "Circular Std Book";
-    color: rgb(173, 39, 167);
-    font-style: italic;
-    line-height: 1.6;
-    text-align: center;
-    margin-top:30px;
-}
+    #sec-2 div.row div.col-md-4:nth-child(3) p {
+        font-size: 15px;
+        font-family: "Circular Std Book";
+        color: rgb(173, 39, 167);
+        font-style: italic;
+        line-height: 1.6;
+        text-align: center;
+        margin-top: 30px;
+    }
 
-div.container-fluid#sec-3 {
+#sec-3 {
     background-image: url(../img/Home_Page/sec-3/background.png);
-    margin-top:100px;
-    height:725px;
-    background-position:center;
-    background-repeat:no-repeat;
+    margin-top: 100px;
+    height: 725px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-div.container-fluid#sec-3 h3 {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 1.2;
-    padding-top:196px;
+    #sec-3 h3 {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        padding-top: 196px;
+    }
+
+    #sec-3 p {
+        font-size: 19px;
+        font-family: "Circular Std Medium";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #sec-3 .row {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+        #sec-3 .row .col-md-4 {
+            font-size: 19px;
+            font-family: "Circular Std";
+            color: rgb(254, 254, 255);
+            line-height: 1.2;
+            text-align: center;
+        }
+
+#sec-4 {
+    margin-top: -40px;
 }
 
-div.container-fluid#sec-3 p {
-    font-size: 19px;
-    font-family: "Circular Std Medium";
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: center;
-    margin-top:20px;
-}
-
-div.container-fluid#sec-3  .row{
-    padding-top:40px;
-    text-align:center;
-}
-
-div.container-fluid#sec-3 .row .col-md-4 {
-    font-size: 19px;
-    font-family: "Circular Std";
-    color: rgb(254, 254, 255);
-    line-height: 1.2;
-    text-align: center;
-}
-
-div.container-fluid#sec-4{
-    margin-top:-40px;
-}
-
-    div.container-fluid#sec-4 .col-md-7 {
-
+    #sec-4 .col-md-7 {
         background-image: url(../img/Home_Page/sec-4/smart_phone.png);
         background-repeat: no-repeat;
         height: 767px;
     }
 
-div.container-fluid#sec-4 .row .col-md-5 h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    padding-top:172px;
-}
+    #sec-4 .row .col-md-5 h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-top: 172px;
+    }
 
-    div.container-fluid#sec-4 .row .col-md-5 p {
+    #sec-4 .row .col-md-5 p {
         font-size: 19px;
         font-family: "Circular Std Book";
         color: rgb(0, 0, 0);
         line-height: 1.421;
         text-align: left;
-        margin-top:30px;
+        margin-top: 30px;
     }
 
-        div.container-fluid#sec-4 .row .col-md-5 p:nth-child(3) {
+        #sec-4 .row .col-md-5 p:nth-child(3) {
             font-size: 16px;
             font-family: "Circular Std Book Italic";
             color: rgb(0, 0, 0);
@@ -454,237 +427,237 @@ div.container-fluid#sec-4 .row .col-md-5 h3 {
             margin-top: 20px;
         }
 
-    div.container-fluid#sec-4 .row .col-md-5 span {
+    #sec-4 .row .col-md-5 span {
         color: rgb(242, 47, 118);
     }
 
-.container-fluid#sec-4 div.row div.col-md-5 input {
-    background-color: rgb(239, 217, 20);
-    top: 511px;
-    width: 286px;
-    height: 45px;
-    border-color: rgb(239, 217, 20);
-    border-radius: 22.5px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: 'Circular Std Bold';
-    font-size: 16px;
-    text-align: center;
-    display: inline-block;
-    text-transform: uppercase;
-    line-height: 1.5;
-}
-
-.container-fluid#sec-5{
-    background-color:rgb(252, 253, 254);
-    height:631px;
-    margin-top:200px;
-}
-
-div.container-fluid#sec-5 .row  div:nth-child(2) h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    margin-top: 151px;
-}
-
-div.container-fluid#sec-5 .row div:nth-child(2) p {
-    font-size: 19px;
-    font-family: "Circular Std Medium";
-    color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: left;
-    margin-top: 20px;
-    line-height: 1.421;
-}
-
-    div.container-fluid#sec-5 .row div:nth-child(2) p:nth-child(3) {
+    #sec-4 div.row div.col-md-5 input {
+        background-color: rgb(239, 217, 20);
+        top: 511px;
+        width: 286px;
+        height: 45px;
+        border-color: rgb(239, 217, 20);
+        border-radius: 22.5px;
+        border-style: solid;
+        border-width: 1px;
+        font-family: 'Circular Std Bold';
         font-size: 16px;
-        font-family: "Circular Std Book Italic";
-        color: rgb(0, 0, 0);
-        font-style: italic;
+        text-align: center;
+        display: inline-block;
+        text-transform: uppercase;
         line-height: 1.5;
+    }
+
+#sec-5 {
+    background-color: rgb(252, 253, 254);
+    height: 631px;
+    margin-top: 200px;
+}
+
+    #sec-5 .row div:nth-child(2) h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 151px;
+    }
+
+    #sec-5 .row div:nth-child(2) p {
+        font-size: 19px;
+        font-family: "Circular Std Medium";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
         text-align: left;
         margin-top: 20px;
+        line-height: 1.421;
     }
 
-.container-fluid#sec-5 div.row div.col-md-5 input {
-    background-color: rgb(239, 217, 20);
-    top: 511px;
-    width: 220px;
-    height: 45px;
-    border-color: rgb(239, 217, 20);
-    border-radius: 22.5px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: 'Circular Std Bold';
-    font-size: 16px;
-    text-align: center;
-    display: inline-block;
-    text-transform: uppercase;
-    line-height: 1.5;
-}
+        #sec-5 .row div:nth-child(2) p:nth-child(3) {
+            font-size: 16px;
+            font-family: "Circular Std Book Italic";
+            color: rgb(0, 0, 0);
+            font-style: italic;
+            line-height: 1.5;
+            text-align: left;
+            margin-top: 20px;
+        }
 
-div.container-fluid#sec-6{
-    margin-top:190px;
-} 
-
-
-div.container-fluid#sec-6 .row div.col-md-5 p {
-    font-size: 19px;
-    font-family: "Circular Std Medium";
-    color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: left;
-    margin-top: 20px;
-    line-height: 1.421;
-}
-
-div.container-fluid#sec-6 .row div.col-md-5 h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    margin-top: 151px;
-}
-
-div.container-fluid#sec-6 .row .col-md-5 span {
-    color: rgb(242, 47, 118);
-}
-
-.container-fluid#sec-6 div.row div.col-md-5 input {
-    background-color: rgb(239, 217, 20);
-    top: 511px;
-    width: 220px;
-    height: 45px;
-    border-color: rgb(239, 217, 20);
-    border-radius: 22.5px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: 'Circular Std Bold';
-    font-size: 16px;
-    text-align: center;
-    display: inline-block;
-    text-transform: uppercase;
-    line-height: 1.5;
-}
-
-div.container-fluid#sec-6 .row div.col-md-7 {
-    background-image: url(../img/Home_Page/sec-6/background-2.png);
-    background-repeat: no-repeat;
-    height:538px;
-    background-position:right;
-}
-
-    div.container-fluid#sec-6 .row div.col-md-7 p:nth-child(1) {
+    #sec-5 div.row div.col-md-5 input {
+        background-color: rgb(239, 217, 20);
+        top: 511px;
+        width: 220px;
+        height: 45px;
+        border-color: rgb(239, 217, 20);
+        border-radius: 22.5px;
+        border-style: solid;
+        border-width: 1px;
+        font-family: 'Circular Std Bold';
         font-size: 16px;
-        font-family: "Circular Std Book Italic";
-        color: rgb(0, 0, 0);
-        font-style: italic;
-        line-height: 1.438;
         text-align: center;
-        padding-left:27px;
-        padding-right:280px;
-        padding-top:370px;
+        display: inline-block;
+        text-transform: uppercase;
+        line-height: 1.5;
     }
 
-    div.container-fluid#sec-6 .row div.col-md-7 p:nth-child(2) {
+#sec-6 {
+    margin-top: 190px;
+}
+
+
+    #sec-6 .row div.col-md-5 p {
+        font-size: 19px;
+        font-family: "Circular Std Medium";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 20px;
+        line-height: 1.421;
+    }
+
+    #sec-6 .row div.col-md-5 h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 151px;
+    }
+
+    #sec-6 .row .col-md-5 span {
+        color: rgb(242, 47, 118);
+    }
+
+    #sec-6 div.row div.col-md-5 input {
+        background-color: rgb(239, 217, 20);
+        top: 511px;
+        width: 220px;
+        height: 45px;
+        border-color: rgb(239, 217, 20);
+        border-radius: 22.5px;
+        border-style: solid;
+        border-width: 1px;
+        font-family: 'Circular Std Bold';
         font-size: 16px;
-        font-family: "Circular Std Medium Italic";
-        color: rgb(0, 0, 0);
-        font-style: italic;
-        line-height: 1.438;
         text-align: center;
-        padding-right: 253px;
+        display: inline-block;
+        text-transform: uppercase;
+        line-height: 1.5;
     }
 
-div.container-fluid#sec-7 {
+    #sec-6 .row div.col-md-7 {
+        background-image: url(../img/Home_Page/sec-6/background-2.png);
+        background-repeat: no-repeat;
+        height: 538px;
+        background-position: right;
+    }
+
+        #sec-6 .row div.col-md-7 p:nth-child(1) {
+            font-size: 16px;
+            font-family: "Circular Std Book Italic";
+            color: rgb(0, 0, 0);
+            font-style: italic;
+            line-height: 1.438;
+            text-align: center;
+            padding-left: 27px;
+            padding-right: 280px;
+            padding-top: 370px;
+        }
+
+        #sec-6 .row div.col-md-7 p:nth-child(2) {
+            font-size: 16px;
+            font-family: "Circular Std Medium Italic";
+            color: rgb(0, 0, 0);
+            font-style: italic;
+            line-height: 1.438;
+            text-align: center;
+            padding-right: 253px;
+        }
+
+#sec-7 {
     margin-top: 16px;
 }
 
-div.container-fluid#sec-7 .row div.col-md-7 {
-    background-image: url(../img/Home_Page/sec-7/background.png);
-    background-repeat: no-repeat;
-    height: 602px;
-    background-position: left;
-}
+    #sec-7 .row div.col-md-7 {
+        background-image: url(../img/Home_Page/sec-7/background.png);
+        background-repeat: no-repeat;
+        height: 602px;
+        background-position: left;
+    }
 
-div.container-fluid#sec-7 .row div.col-md-5 p {
-    font-size: 19px;
-    font-family: "Circular Std Medium";
-    color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: left;
-    margin-top: 20px;
-    line-height: 1.421;
-}
+    #sec-7 .row div.col-md-5 p {
+        font-size: 19px;
+        font-family: "Circular Std Medium";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 20px;
+        line-height: 1.421;
+    }
 
-div.container-fluid#sec-7 .row div.col-md-5 h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    padding-top:175px;
-}
+    #sec-7 .row div.col-md-5 h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-top: 175px;
+    }
 
-.container-fluid#sec-7 div.row div.col-md-5 input {
-    background-color: rgb(239, 217, 20);
-    top: 511px;
-    width: 220px;
-    height: 45px;
-    border-color: rgb(239, 217, 20);
-    border-radius: 22.5px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: 'Circular Std Bold';
-    font-size: 16px;
-    text-align: center;
-    display: inline-block;
-    text-transform: uppercase;
-    line-height: 1.5;
-}
+    #sec-7 div.row div.col-md-5 input {
+        background-color: rgb(239, 217, 20);
+        top: 511px;
+        width: 220px;
+        height: 45px;
+        border-color: rgb(239, 217, 20);
+        border-radius: 22.5px;
+        border-style: solid;
+        border-width: 1px;
+        font-family: 'Circular Std Bold';
+        font-size: 16px;
+        text-align: center;
+        display: inline-block;
+        text-transform: uppercase;
+        line-height: 1.5;
+    }
 
-div.container-fluid#sec-8 .row div.col-md-8 {
+#sec-8 .row div.col-md-8 {
     background-image: url(../img/Home_Page/sec-8/background.png);
     background-repeat: no-repeat;
     height: 680px;
     background-position: right;
 }
 
-div.container-fluid#sec-8 .row div.col-md-4 {
-    padding-right:0px;
-    padding-left:15px;
+#sec-8 .row div.col-md-4 {
+    padding-right: 0px;
+    padding-left: 15px;
 }
 
 
-div.container-fluid#sec-8 .row div.col-md-4 p {
-    font-size: 19px;
-    font-family: "Circular Std Medium";
-    color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: left;
-    margin-top: 20px;
-    line-height: 1.421;
-}
+    #sec-8 .row div.col-md-4 p {
+        font-size: 19px;
+        font-family: "Circular Std Medium";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 20px;
+        line-height: 1.421;
+    }
 
-div.container-fluid#sec-8 .row div.col-md-4 h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    padding-top: 175px;
-}
+    #sec-8 .row div.col-md-4 h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-top: 175px;
+    }
 
-.container-fluid#sec-8 div.row div.col-md-4 input {
+#sec-8 div.row div.col-md-4 input {
     color: black;
     background-color: rgb(239, 217, 20);
     top: 511px;
@@ -701,3 +674,242 @@ div.container-fluid#sec-8 .row div.col-md-4 h3 {
     text-transform: uppercase;
     line-height: 1.5;
 }
+
+#sec-9 {
+    margin-left: 10px;
+    margin-top: 115px;
+    padding-bottom: 167px;
+    background-color: rgb(252, 253, 254);
+}
+
+    #sec-9 h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro black";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 53px;
+        margin-bottom: 50px;
+    }
+
+        #sec-9 h3 span {
+            color: rgb(242, 47, 118);
+        }
+
+    #sec-9#testimonials {
+        margin-top: 50px;
+    }
+
+        #sec-9#testimonials ol {
+            margin-top: 164px;
+            position: absolute;
+        }
+
+#ind-1 {
+    background-color: rgb(239, 218, 21);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#ind-2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(3, 175, 240);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#ind-3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(242, 47, 118);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#ind-4 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(141, 38, 165);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#t1-header {
+    font-size: 20px;
+    font-family: Circular Std 'Circular Std Bold';
+    color: rgb(239, 218, 21);
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#t1-body {
+    font-size: 16px;
+    font-family: 'Circular Std Book';
+    color: rgb(0, 0, 0);
+    line-height: 1.625;
+}
+
+#t2-header {
+    font-size: 20px;
+    font-family: Circular Std 'Circular Std Bold';
+    color: rgb(3, 175, 240);
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#t2-body {
+    font-size: 16px;
+    font-family: 'Circular Std Book';
+    color: rgb(0, 0, 0);
+    line-height: 1.625;
+}
+
+#t3-header {
+    font-size: 20px;
+    font-family: Circular Std 'Circular Std Bold';
+    color: rgb(242, 47, 118);
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#t3-body {
+    font-size: 16px;
+    font-family: 'Circular Std Book';
+    color: rgb(0, 0, 0);
+    line-height: 1.625;
+}
+
+#t4-header {
+    font-size: 20px;
+    font-family: Circular Std 'Circular Std Bold';
+    color: rgb(141, 38, 165);
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#t4-body {
+    font-size: 16px;
+    font-family: 'Circular Std Book';
+    color: rgb(0, 0, 0);
+    line-height: 1.625;
+}
+
+ind1-inactive {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(237, 219, 23);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind1-active {
+    background-color: rgb(239, 218, 21);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind2-inactive {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(141, 38, 165);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind2-active {
+    background-color: rgb(141, 38, 165);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind3-inactive {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(242, 47, 118);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind3-active {
+    background-color: rgb(242, 47, 118);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind4-inactive {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(3, 175, 240);
+    background-color: rgb(252, 253, 254);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+ind4-active {
+    background-color: rgb(3, 175, 240);
+    width: 54px;
+    height: 9px;
+    border-radius: 3px;
+}
+
+#sec-10 {
+    margin-top: 200px;
+}
+
+    #sec-10 h3 {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    #sec-10 p {
+        font-size: 19px;
+        font-family: "Circular Std Medium";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #sec-10 .row {
+        padding-top: 35px;
+    }
+
+/*#sec-10 .row .col-md-4 {
+    font-size: 19px;
+    font-family: "Circular Std";
+    color: rgb(254, 254, 255);
+    line-height: 1.2;
+    text-align: center;
+}*/
+
