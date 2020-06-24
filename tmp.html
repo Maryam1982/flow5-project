@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
               integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">-->
     <link rel="stylesheet" href="css/tmp.css"/>
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -57,11 +57,13 @@
                             collègues ou prestataires.
                         </p>
 
-                        <input type="text" id="email" value="caroline@monentreprise.com" />  <input type="button" id="submit" value="Ma Démo Gratuite" />
+                        <input type="text" id="email" value="caroline@monentreprise.com" />  <input type="button" class="btn btn-primary" id="submit" value="Ma Démo Gratuite" />
 
                     </div>
-                    <div class="col-md-6">
-                        <img src="img/Home_Page/header/video-place-holder.png" style="width:626px;padding-top:103px;float:right;" />
+                    <div class="col-md-6" style="padding-top:90px;padding-right:35px;">
+                        <video style="width:626px;height:352px;border-radius:10px;float:right;" controls>
+                            <source src="video/flow5.mp4" type="video/mp4"/>
+                        </video>
                     </div>
                 </div>
             <!--</div>-->
@@ -94,7 +96,7 @@
                     </p>
 
                     <div style="text-align:center;">
-                        <input type="button" value="En Discuter" />
+                        <input type="button" class="btn btn-primary" value="En Discuter" />
                     </div>
                 </div>
 
@@ -118,7 +120,7 @@
                     </p>
 
                     <div style="text-align:center;">
-                        <input type="button" value="En Discuter" />
+                        <input type="button" value="En Discuter" class="btn btn-primary" />
                     </div>
                 </div>
 
@@ -138,7 +140,7 @@
                         mieux vos salariés ?
                     </p>
                     <div style="text-align:center;">
-                        <input type="button" value="En Discuter" />
+                        <input type="button" value="En Discuter" class="btn btn-primary" />
                     </div>
 
                 </div>
@@ -184,7 +186,7 @@
                         Vous pouvez enfin demander tous les services dont<br />
                         vous rêvez.
                     </p>
-                    <input type="button" value="Toutes les possibilitées" />
+                    <input type="button" value="Toutes les possibilitées" class="btn btn-primary"/>
                 </div>
                 <div class="col-md-7">
 
@@ -209,7 +211,7 @@
                         Votre équipe reste productive et efficace même t distance.
                     </p>
 
-                    <input type="button" value="Voir des Exemples" />
+                    <input type="button" value="Voir des Exemples" class="btn btn-primary"/>
                 </div>
             </div>
         </div>
@@ -223,7 +225,7 @@
                         même à distance, pour lancer votre premier service.<br />
                         Vous êtes ensuite autonomes grâce à notre interface intuitive.
                     </p>
-                    <input type="button" value="Voir la Demo" />
+                    <input type="button" value="Voir la Demo" class="btn btn-primary"/>
                 </div>
                 <div class="col-md-7">
                     <p>
@@ -251,7 +253,7 @@
                         drag and drop.<br />
                         Votre service ressemble parfaitement à votre entreprise.
                     </p>
-                    <input type="button" value="Voir la Demo" />
+                    <input type="button" value="Voir la Demo" class="btn btn-primary"/>
                 </div>
             </div>
         </div>
@@ -365,13 +367,101 @@
                et vous conseiller.</p>
             <div class="row">
                 <div class="col-md-5">
-                    <img src="img/Home_Page/sec-10/map.png" style="height:545px;margin-left:25px;"/>
-                </div>
-                <div class="col-md-7">
 
+                    <div id="map" style="height:545px;width:557px;margin-left:25px;background-image:url(img/Home_Page/sec-10/map.png)">
+                        <div id="locs">
+                            <img id="loc1" class="loc active-loc" data-desc="Votre agence  vient à votre rencontre" name="Paris" style="position:relative;left:433px;top:150px;"/>
+                            <img id="loc2" class="loc" data-desc="Lorem ipsum dolor sit amet" name="Marseille" style="position:relative;left:328px;top:149px;" />
+                            <img id="loc3" class="loc" data-desc="Donec quam felis" name="Lyon" style="position:relative;left:331px;top:95px;" />
+                            <img id="loc4" class="loc" data-desc="Nulla consequat massa" name="Toulouse" style="position:relative;left:186px;top:200px;" />
+                            <img id="loc5" class="loc" data-desc="In enim justo, rhoncus ut" name="Nice" style="position:relative;left:191px;top:332px;" />
+                            <img id="loc6" class="loc" data-desc="Aenean leo ligula" name="Nantes" style="position:relative;left:289px;top:408px;" />
+                            <img id="loc7" class="loc" data-desc="Phasellus viverra nulla ut" name="Strasbourg" style="position:relative;left:324px;top:371px;" />
+                            <img id="loc8" class="loc" data-desc="Aenean imperdiet" name="Montpellier" style="position:relative;left:200px;top:321px;" />
+                            <img id="loc9" class="loc" data-desc="Curabitur ullamcorper ultricies" name="Bordeaux" style="position:relative;left:250px;top:237px;" />
+                            <img id="loc10" class="loc" data-desc="Nam eget dui" name="Lille" style="position:relative;left:258px;top:194px;" />
+                            <img id="loc11" class="loc" data-desc="Etiam rhoncus" name="Rennes" style="position:relative;left:281px;top:140px;" />
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-7" id="loc-img" >
+                    <div id="loc-desc">
+                        <ul>
+                            <li>
+                                Paris
+                            </li>
+                        </ul>
+                        <p>Votre agence  vient à votre rencontre</p>
+                        <input type="button" value="Etre Recontacte" class="btn btn-primary"/>
+                    </div>
+                    <img src="img/Home_Page/sec-10/loc1_img.png" id="office-img"/>
                 </div>
 
             </div>
+        </div>
+
+        <div id="sec-11">
+            <h3>Nous serons toujours là pour vous</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/Home_Page/sec-11/technical-support.png"/>
+                    <div>
+                        <h5>Support et maintenance premium</h5>
+                        <p>
+                            Une assistance 5/7 disponible par email<br />
+                            ou téléphone
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6" >
+                    <img src="img/Home_Page/sec-11/shield.png" />
+                    <div>
+                        <h5>Vos données sont protégées</h5>
+                        <p>
+                            Un logiciel conçu, hébergé et sécurisé<br />
+                            Vos données ne sortent pas du territoire.
+                        </p>
+                    </div>
+                    
+                </div>
+                <!--<div class="d-flex justify-content-center">
+                    <input type="button" value="Ma Démo Gratuite"/>
+                    <input type="button" value="Télécharger la Plaquette"/>
+                </div>-->
+            </div>
+            <div class="d-flex justify-content-center" style="margin-top:50px;">
+                <input type="button" value="Ma Démo Gratuite" class="btn btn-primary"/>
+                <input type="button" value="Télécharger la Plaquette" style="margin-left:15px;" class="btn btn-primary"/>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="d-flex justify-content-center">
+               <ul>
+                   <li>
+                       <a>Nous rejoindre </a>
+                   </li>
+
+                   <li>
+                       <a>Nous Contacter </a>
+                   </li>
+
+                   <li>
+                       <a>Mentions légales</a>
+                   </li>
+               </ul>
+            </div>
+
+            <div id="logo-footer" class="d-flex justify-content-center">
+                <img src="img/Home_Page/footer/logo-white.png" />
+            </div>
+            <div id="copyright" class="d-flex justify-content-center">
+                © 2020  flowin5  All rights reserved.
+            </div>
+
         </div>
 
         <!-- Optional JavaScript -->
@@ -379,6 +469,8 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery.maphilight.js"></script>
+        
         <script>
             $(document).ready(function () {
                 $("#ind-1").click(function () {
@@ -423,8 +515,30 @@
                     $("#ind-2").css({ "border-style": "solid", "border-width": "2px", "border-color": "rgb(3, 175, 240)", "background-color": "rgb(252, 253, 254)", "width": "54px", "height": "9px", "border-radius": "3px" });
                     $("#ind-3").css({ "border-style": "solid", "border-width": "2px", "border-color": "rgb(242, 47, 118)", "background-color": "rgb(252, 253, 254)", "width": "54px", "height": "9px", "border-radius": "3px" });
                 });
-                    
 
+
+                
+                    
+                //$(".loc").on("hover", function (event) {
+                //    $("#log").text("pageX: " + event.offsetX + ", pageY: " + event.offsetY);
+                //});
+                $(".loc").attr("src", "img/Home_Page/sec-10/inactive-pin.png");
+                $(".loc").css("cursor", "pointer");
+                $(".loc.active-loc").attr("src", "img/Home_Page/sec-10/active-pin.png");
+
+                $(".loc").click(
+                    function () {
+                        //var clicked = $(this);
+                        $(".loc.active-loc").attr("src", "img/Home_Page/sec-10/inactive-pin.png");
+                        $(".loc.active-loc").removeClass( "active-loc" );
+                        $(this).addClass("active-loc");
+                        $(this).attr("src", "img/Home_Page/sec-10/active-pin.png");
+                        $("#office-img").attr("src", "img/Home_Page/sec-10/" + $(this).attr("id") + "_img.png");
+                        $("#loc-desc ul li").html($(this).attr("name"));
+                        $("#loc-desc p").html($(this).attr("data-desc"));
+                        //$(".loc.active").text("pageX: " + event.offsetX + ", pageY: " + event.offsetY);
+                    }
+                );
 
                 });
 
