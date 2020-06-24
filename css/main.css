@@ -333,7 +333,7 @@ div.container-fluid {
 
     #sec-2 div.row div.col-md-4:nth-child(1) p {
         font-size: 15px;
-        font-family: "Circular Std Medium Italic";
+        font-family: "Circular Std Medium";
         color: rgb(4, 154, 186);
         /*font-style: italic;*/
         line-height: 1.6;
@@ -343,7 +343,7 @@ div.container-fluid {
 
     #sec-2 div.row div.col-md-4:nth-child(2) p {
         font-size: 15px;
-        font-family: "Circular Std Medium Italic";
+        font-family: "Circular Std Medium";
         color: rgb(243, 49, 123);
         /*font-style: italic;*/
         line-height: 1.6;
@@ -352,7 +352,7 @@ div.container-fluid {
 
     #sec-2 div.row div.col-md-4:nth-child(3) p {
         font-size: 15px;
-        font-family: "Circular Std Medium Italic";
+        font-family: "Circular Std Medium";
         color: rgb(173, 39, 167);
         /*font-style: italic;*/
         line-height: 1.6;
@@ -1074,7 +1074,7 @@ ind4-active {
         color: rgb(239, 218, 21);
         text-transform: uppercase;
         line-height: 1.5;
-        color: rgb(0, 0, 0);
+        color: rgb(239, 218, 21);
     }
 
 #footer {
