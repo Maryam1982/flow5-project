@@ -304,9 +304,9 @@ div.container-fluid header div.row div.col-md-6 input#submit {
 
 #sec-2 div.row div.col-md-4:nth-child(1) h3 {
     font-size: 20px;
-    font-family: "Circular Std";
+    font-family: "Circular Std Bold";
     color: rgb(4, 154, 186);
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 1.2;
     text-align: center;
     margin-top: 39px;
@@ -314,9 +314,9 @@ div.container-fluid header div.row div.col-md-6 input#submit {
 
 #sec-2 div.row div.col-md-4:nth-child(2) h3 {
     font-size: 20px;
-    font-family: "Circular Std";
+    font-family: "Circular Std Bold";
     color: rgb(244, 61, 131);
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 1.2;
     text-align: center;
     margin-top: 51px;
@@ -324,9 +324,9 @@ div.container-fluid header div.row div.col-md-6 input#submit {
 
 #sec-2 div.row div.col-md-4:nth-child(3) h3 {
     font-size: 20px;
-    font-family: "Circular Std";
+    font-family: "Circular Std Bold";
     color: rgb(173, 39, 167);
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 1.2;
     text-align: center;
     margin-top: 20px;
