@@ -75,3 +75,103 @@
     font-weight: bold;
     font-style: normal;
 }
+
+
+
+header {
+    background-image: url('../img/Functionalities/header/background.png');
+    background-repeat: no-repeat;
+    height: 404px;
+    background-position:center;
+}
+
+div.container-fluid {
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.container-fluid header div.row div.col-md-3 div.logo {
+    margin-top: 17px;
+}
+
+div.container-fluid header div.row div.col-md-3.menu_items ul {
+    float: right;
+    margin-top: 52px;
+}
+
+div.container-fluid header div.row div.col-md-3 ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.container-fluid header div.row div.col-md-3 ul li a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: 'Circular Std Medium';
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+div.container-fluid header div.row div.col-md-3 ul li a.active-link {
+    color:rgb(239, 218, 21);
+}
+
+div.container-fluid header div:nth-child(2) {
+    padding-left:1.8em;
+    
+}
+
+    div.container-fluid header div h1.header-heading {
+        font-size: 38px;
+        font-family: 'Source Sans Pro';
+        color: rgb(0, 0, 0);
+        text-align: left;
+        padding-top: 198px;
+        padding-bottom: 0px;
+        line-height: 1.2;
+        font-weight: bold;
+        margin-top: -1.75em;
+    }
+
+div.container-fluid header div h1.header-heading span{
+    color:rgb(242, 47, 118);
+}
+    
+
+div.container-fluid header div input#email {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(235, 235, 235);
+    border-radius: 22.5px;
+    background-color: rgb(247, 247, 247);
+    top: 509px;
+    width: 368px;
+    height: 47px;
+    z-index: 13;
+    float: left;
+    padding-left: 31px;
+    margin-top: 27px;
+}
+
+div.container-fluid header div input#submit {
+    background-color: rgb(239, 217, 20);
+    top: 511px;
+    width: 221px;
+    height: 45px;
+    z-index: 16;
+    margin-left: 10px;
+    border-color: rgb(239, 217, 20);
+    border-radius: 22.5px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Circular Std Bold';
+    font-size: 16px;
+    text-align: center;
+    margin-top: 27px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}

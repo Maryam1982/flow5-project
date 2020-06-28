@@ -115,6 +115,7 @@ body-text {
 header {
     background-image: url('../img/Home_Page/header/background/background.png');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 624px;
 }
 
@@ -158,16 +159,20 @@ div.container-fluid header div.row div.col-md-3 ul li a {
     color: white;
 }
 
-div.container-fluid header div.row div.col-md-6 p.header-heading {
-    font-size: 38px;
-    font-family: 'Source Sans Pro';
-    color: rgb(0, 0, 0);
-    text-align: left;
-    padding-top: 198px;
-    padding-bottom: 0px;
-    line-height: 1.2;
-    font-weight: bold;
-}
+    /*div.container-fluid header div.row div.col-md-6{
+        padding-left:4em;
+    }*/ 
+    
+    div.container-fluid header div.row div.col-md-6 p.header-heading {
+        font-size: 38px;
+        font-family: 'Source Sans Pro';
+        color: rgb(0, 0, 0);
+        text-align: left;
+        padding-top: 198px;
+        padding-bottom: 0px;
+        line-height: 1.2;
+        font-weight: bold;
+    }
 
 div.container-fluid header div.row div.col-md-6 p.body-text {
     font-size: 19px;
@@ -212,6 +217,13 @@ div.container-fluid header div.row div.col-md-6 input#submit {
     color:rgb(0, 0, 0);
 }
 
+header div.row div.col-md-6 video {
+    width: 626px;
+    height: 352px;
+    border-radius: 10px;
+    float: right;
+}
+
 #sec-2 h1 {
     font-family: 'Source Sans Pro';
     font-size: 33px;
@@ -230,6 +242,10 @@ div.container-fluid header div.row div.col-md-6 input#submit {
 
 #sec-2 div.row {
     margin-top: 66px;
+}
+
+#sec-2 div.row div.col-md-4 img{
+    width:100%;
 }
 
 #sec-2 div.row div.col-md-4 ul {
@@ -395,13 +411,47 @@ div.container-fluid header div.row div.col-md-6 input#submit {
     text-align: center;
 }
 
-    #sec-3 .row .col-md-4 {
-        font-size: 19px;
-        font-family: "Circular Std Medium";
-        color: rgb(254, 254, 255);
-        line-height: 1.2;
-        text-align: center;
-    }
+#sec-3 .row .col-md-4 {
+    font-size: 19px;
+    font-family: "Circular Std Medium";
+    color: rgb(254, 254, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+#sec-3 div.row.d-flex.justify-content-center div.col-md-4:nth-child(1) 
+    div.d-flex.justify-content-center a div{
+    background-image: url(../img/Home_Page/sec-3/icon-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 119px;
+}
+
+#sec-3 div.row.d-flex.justify-content-center div.col-md-4:nth-child(2) 
+    div.d-flex.justify-content-center a div {
+    background-image: url(../img/Home_Page/sec-3/icon-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 119px;
+    height: 119px;
+}
+
+#sec-3 div.row.d-flex.justify-content-center div.col-md-4:nth-child(3) 
+    div.d-flex.justify-content-center a div {
+    background-image: url(../img/Home_Page/sec-3/icon-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 119px;
+    height: 119px;
+}
+
+/*#sec-3 div.row div.col-md-4:nth-child(3) a {
+    background-image: url(../img/Home_Page/sec-3/icon-3.png);
+    width: 119px;
+    height: 119px;
+}*/
+
 
 #sec-4 {
     margin-top: -40px;
@@ -413,15 +463,19 @@ div.container-fluid header div.row div.col-md-6 input#submit {
     height: 767px;
 }
 
-#sec-4 .row .col-md-5 h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    padding-top: 172px;
-}
+    /*#sec-4 .row .col-md-5 {
+        padding-left:6em;
+    }*/
+    
+    #sec-4 .row .col-md-5 h3 {
+        font-size: 30px;
+        font-family: "Source Sans Pro";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-top: 172px;
+    }
 
 #sec-4 .row .col-md-5 p {
     font-size: 19px;
@@ -469,6 +523,13 @@ div.container-fluid header div.row div.col-md-6 input#submit {
     height: 631px;
     margin-top: 200px;
 }
+
+    #sec-5 div.row div.col-md-7 {
+        background-image: url(../img/Home_Page/sec-5/background.png);
+        background-position:center;
+        background-repeat:no-repeat;
+        height:638px;
+    }
 
 #sec-5 .row div:nth-child(2) h3 {
     font-size: 30px;
@@ -646,10 +707,10 @@ div.container-fluid header div.row div.col-md-6 input#submit {
 }
 
 #sec-8 .row div.col-md-8 {
-    /*background-image: url(../img/Home_Page/sec-8/background.png);
+    background-image: url(../img/Home_Page/sec-8/background.png);
     background-repeat: no-repeat;
     height: 680px;
-    background-position: right;*/
+    background-position: center;
 }
 
 #sec-8 .row div.col-md-4 {
@@ -722,6 +783,10 @@ div.container-fluid header div.row div.col-md-6 input#submit {
 #sec-9#testimonials {
     margin-top: 50px;
 }
+
+/*carousel-indicators {
+    padding-left:5em;
+}*/
 
 #sec-9#testimonials ol {
     margin-top: 164px;
@@ -1019,7 +1084,7 @@ ind4-active {
 
 #sec-11 div.col-md-6:nth-child(1) {
     margin-top: 51px;
-    padding-left: 313px;
+    /*padding-left: 15em;*/
 }
 
 #sec-11 div.col-md-6 div {
@@ -1108,4 +1173,138 @@ ind4-active {
     font-family: "Circular Std Book";
     color: rgb(255, 255, 255);
     line-height: 1.714;
+}
+
+
+
+
+
+
+
+@media screen and /*(max-width: 1920px)*/  (min-width: 1400px) {
+
+
+header {
+    background-image: url('../img/Home_Page/header/wide-screen/background.png');
+    background-repeat: no-repeat;
+    height: 990px; 
+    background-position:center;     
+}
+
+    div.container-fluid header div.row div.col-md-6 {
+        padding-left: 4em;
+    }
+
+header div.row div.col-md-6 video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    float: right;
+}
+
+#sec-3 {
+    background-image: url(../img/Home_Page/sec-3/wide-screen/background.png);
+    margin-top: 100px;
+    height: 995px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-3 h3 {
+    /*text-align: center;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;*/
+    padding-top: 10em;
+}
+
+    #sec-3 div.row.d-flex.justify-content-center div.col-md-4:nth-child(1) div.d-flex.justify-content-center a div {
+        background-image: url(../img/Home_Page/sec-3/wide-screen/icon-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 171px;
+        height: 155px;
+    }
+
+    #sec-3 div.row.d-flex.justify-content-center div.col-md-4:nth-child(2) div.d-flex.justify-content-center a div {
+        background-image: url(../img/Home_Page/sec-3/wide-screen/icon-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 155px;
+        height: 155px;
+    }
+
+    #sec-3 div.row.d-flex.justify-content-center div.col-md-4:nth-child(3) div.d-flex.justify-content-center a div {
+        background-image: url(../img/Home_Page/sec-3/wide-screen/icon-3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 155px;
+        height: 155px;
+    }
+
+    #sec-4 .col-md-7 {
+        background-image: url(../img/Home_Page/sec-4/wide-screen/smart_phone.png);
+        background-repeat: no-repeat;
+        height: 1100px;
+        background-position:center;
+    }
+
+    #sec-4 .row .col-md-5 {
+        padding-left: 16em;
+        padding-top:8em;
+    }
+
+    #sec-5{
+        height:610px;
+    }
+
+    #sec-5 div.row div.col-md-7 {
+        background-image: url(../img/Home_Page/sec-5/wide-screen/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #sec-5 div.row div.col-md-5 {
+        padding-right: 16em;
+        padding-top: 5em;
+    }
+
+    #sec-6 div.row div.col-md-5 {
+        padding-left: 16em;
+        /*padding-top: 2em;*/
+    }
+
+    #sec-7 div.row div.col-md-5 {
+        padding-right: 16em;
+        padding-top: 5em;
+    }
+
+    #sec-8 div.row div.col-md-4 {
+        padding-left: 15em;
+        padding-top:5em;
+    }
+
+    #sec-8 .row div.col-md-8 {
+        background-image: url(../img/Home_Page/sec-8/wide-screen/background.png);
+        background-repeat: no-repeat;
+        height: 884px;
+        background-position: right;
+    }
+
+    #loc-img img {
+        margin-right: 18em;
+        margin-top: -10em;
+    }
+
+    #sec-10 div.row div.col-md-5{
+        padding-left:18em;
+    }
+
+    #sec-11 div.col-md-6:nth-child(1) {
+        /*margin-top: 51px;*/
+        /*padding-left: 35em;*/
+    }
+    
 }
