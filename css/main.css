@@ -93,7 +93,7 @@ div.container-fluid header div.row div.col-md-3 ul li a {
     margin-right: 10px;
     font-size: 17px;
     font-family: "Poppins";
-    font-weight:400;
+    font-weight:600;
     color: rgb(255, 255, 255);
     line-height: 1.412;
 
@@ -1144,6 +1144,12 @@ ind4-active {
     height: 397px;
 }
 
+    #sec-11 .row {
+        padding-left: 5.59em;
+        padding-right: 10em;
+        margin: auto;
+    }
+
 #sec-11 h3 {
     font-size: 30px;
     font-family: "Source Sans Pro";
@@ -1213,7 +1219,7 @@ ind4-active {
         text-transform: uppercase;
         line-height: 1.5;
         color: rgb(0, 0, 0);
-        margin-left: 60%;
+        margin-left: 43%;
     }
 
     #sec-11 div.row div.col-md-6:nth-child(2) input:nth-child(2) {
@@ -1233,7 +1239,7 @@ ind4-active {
         text-transform: uppercase;
         line-height: 1.5;
         color: rgb(239, 218, 21);
-        margin-left: 22%;
+        margin-left: 21.6%;
     }
 
 /*#sec-11 div input:nth-child(1) {
@@ -1299,7 +1305,7 @@ ind4-active {
 }
 
     #footer #copyright {
-        margin-top: 9px;
+        margin-top: 2em;
         /*font-size: 14px;
     font-family: "Circular Std Book";*/
         font-size: 12px;
@@ -1466,12 +1472,22 @@ header div.row div.col-md-6 video {
         padding-left:18em;
     }
 
+    #sec-11 .row {
+        padding-left: 4.4em;
+        padding-right: 10em;
+        margin: auto;
+    }
+
+    #sec-11 div.row div.col-md-6:nth-child(1){
+        padding-right:0.01em;
+    }
+    
     #sec-11 div.row div.col-md-6:nth-child(1) input:nth-child(2) {
-        margin-left: 72%;
+        margin-left: 64%;
     }
 
     #sec-11 div.row div.col-md-6:nth-child(2) input:nth-child(2) {
-        margin-left: 15%;
+        margin-left: 14%;
     }
     
 }
