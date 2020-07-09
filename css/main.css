@@ -99,20 +99,22 @@ div.container-fluid header div.row div.col-md-3 ul li a {
 
 }
 
+    div.container-fluid header div.row div.col-md-3 ul li a:hover{
+        color:rgb(237, 219, 23);
+    }
     /*div.container-fluid header div.row div.col-md-6{
         padding-left:4em;
-    }*/ 
-    
-div.container-fluid header div.row div.col-md-6 p.header-heading {
-    font-size: 38px;
-    font-family: 'Source Sans Pro';
-    color: rgb(0, 0, 0);
-    text-align: left;
-    padding-top: 198px;
-    padding-bottom: 0px;
-    line-height: 1.2;
-    font-weight: bold;
-}
+    }*/
+    div.container-fluid header div.row div.col-md-6 p.header-heading {
+        font-size: 38px;
+        font-family: 'Source Sans Pro';
+        color: rgb(0, 0, 0);
+        text-align: left;
+        padding-top: 198px;
+        padding-bottom: 0px;
+        line-height: 1.2;
+        font-weight: bold;
+    }
 
 div.container-fluid header div.row div.col-md-6 p.body-text {
     font-size: 17px;
