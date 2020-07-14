@@ -1059,6 +1059,44 @@ ind4-active {
     padding-top: 35px;
 }
 
+#sec-10 .row .col-md-5 #map {
+    height: 589px;
+    width: 566px;
+    /*margin-left: 25px;*/
+    background-image: url(../img/Home_Page/sec-10/map.png);
+    background-repeat:no-repeat;
+}
+
+#sec-10 .row .col-md-5 #map #loc1 {
+    position: absolute;
+    left: 299px;
+    top: -14px;
+}
+
+#sec-10 .row .col-md-5 #map #loc2 {
+    position: absolute;
+    left: 352px;
+    top: 0px;
+}
+
+#sec-10 .row .col-md-5 #map #loc3 {
+    position: absolute;
+    left: 369px;
+    top: 19px;
+}
+
+#sec-10 .row .col-md-5 #map #loc4 {
+    position: absolute;
+    left: 388px;
+    top: 30px;
+}
+
+#sec-10 .row .col-md-5 #map #loc5 {
+    position: absolute;
+    left: 337px;
+    top: 25px;
+}
+    
 #loc-img img {
     width: 527px;
     height: 403px;
@@ -1201,7 +1239,7 @@ font-family: "Circular Std Book";*/
     margin-left: 15px;
 }
 
-#sec-11 div.row div.col-md-6:nth-child(1) input:nth-child(2) {
+#sec-11 div.row div.col-md-6:nth-child(1) a input {
     background-color: rgb(239, 217, 20);
     width: 220px;
     height: 45px;
@@ -1224,7 +1262,7 @@ font-size: 16px;*/
     margin-left: 43%;
 }
 
-    #sec-11 div.row div.col-md-6:nth-child(2) input:nth-child(2) {
+    #sec-11 div.row div.col-md-6:nth-child(2) a input {
         border-style: solid;
         border-width: 2px;
         border-color: rgb(239, 218, 21);
@@ -1434,7 +1472,37 @@ header div.row div.col-md-6 video {
     }
 
     #sec-10 div.row div.col-md-5{
-        padding-left:18em;
+        padding-left:15em;
+    }
+
+    #sec-10 .row .col-md-5 #map #loc1 {
+        position: absolute;
+        left: 544px;
+        top: -14px;
+    }
+
+    #sec-10 .row .col-md-5 #map #loc2 {
+        position: absolute;
+        left: 593px;
+        top: 0px;
+    }
+
+    #sec-10 .row .col-md-5 #map #loc3 {
+        position: absolute;
+        left: 614px;
+        top: 19px;
+    }
+
+    #sec-10 .row .col-md-5 #map #loc4 {
+        position: absolute;
+        left: 633px;
+        top: 30px;
+    }
+
+    #sec-10 .row .col-md-5 #map #loc5 {
+        position: absolute;
+        left: 582px;
+        top: 25px;
     }
 
     #sec-11 .row {
@@ -1447,11 +1515,11 @@ header div.row div.col-md-6 video {
         padding-right:0.01em;
     }
     
-    #sec-11 div.row div.col-md-6:nth-child(1) input:nth-child(2) {
+    #sec-11 div.row div.col-md-6:nth-child(1) a input {
         margin-left: 64%;
     }
 
-    #sec-11 div.row div.col-md-6:nth-child(2) input:nth-child(2) {
+    #sec-11 div.row div.col-md-6:nth-child(2) a input {
         margin-left: 14%;
     }
     
