@@ -103,6 +103,15 @@ div.container-fluid header div input#email {
     line-height: 1.2;
 }
 
+div.container-fluid header div input#email:focus {
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-radius: 22.5px;
+    background-color: rgb(255, 255, 255);
+}
+
 div.container-fluid header div input#submit {
     background-color: rgb(239, 217, 20);
     top: 511px;
@@ -122,6 +131,10 @@ div.container-fluid header div input#submit {
     font-size: 16px;
     font-family: "Poppins";
     font-weight: 600;
+}
+
+#sec-2{
+    width:100%;
 }
 
 #sec-2 div.col-md-4{
@@ -822,11 +835,23 @@ font-family: "Circular Std Book";*/
         margin: auto;
     }
 
-#sec-8 {
-    margin-top: 125px;
-    background-color: rgb(41, 51, 86);
-    height: 397px;
-}
+    #sec-7 #contact-info #email:focus,
+    #sec-7 #contact-info #phone:focus,
+    #sec-7 #contact-info #post_code:focus,
+    #sec-7 #contact-info textarea:focus {
+        outline: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(197, 195, 195);
+        border-radius: 22.5px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #sec-8 {
+        margin-top: 125px;
+        background-color: rgb(41, 51, 86);
+        height: 397px;
+    }
 
 #sec-8 .row {
     padding-left: 5.59em;
@@ -1026,6 +1051,10 @@ div.container-fluid header div:nth-child(2) {
     padding-right: 0;
 }
 
+#sec-4 #sec4-2 div:nth-child(2) img {
+    margin-left: 36em;
+}
+
 #sec-5 {
     background-image: url(../img/Functionalities/sec-5/wide-screen/background.png);
     background-position: top;
@@ -1036,12 +1065,24 @@ div.container-fluid header div:nth-child(2) {
     padding-top: 14em;
 }
 
-#sec-6 {
-    margin-top: -10em;
+#sec-5 #sec5-3 div:nth-child(2) img {
+    margin-left: 28em;
 }
 
+#sec-5 #sec5-4 div:nth-child(2) img {
+    margin-left: 41em;
+}
+
+    #sec-5 #sec5-5 div.col-md-7 {
+        margin-left:-5.5em;
+    }
+    
+    #sec-6 {
+        margin-top: -10em;
+    }
+
 #sec-6 div.row div.col-md-5 {
-    padding-left: 5em;
+    padding-left: 9em;
     padding-top: 10em;
 }
 
@@ -1050,7 +1091,7 @@ div.container-fluid header div:nth-child(2) {
     background-position: right;
     background-repeat: no-repeat;
     height: 984px;
-    margin-top: -23em;
+    margin-top: -28em;
 }
 
 #sec-6 div.col-md-5 div:nth-child(1) img {
@@ -1090,6 +1131,38 @@ div.container-fluid header div:nth-child(2) {
 }
 
 
+}
+
+
+@media screen and (max-width: 1300px) {
+
+#sec-2 {
+    width: 100%;
+}
+
+#sec-4 #sec4-1 div.col-md-8 {
+    background-position: left;
+}
+
+#sec-4 #sec4-2 div:nth-child(2) img {
+    margin-left: 13em;
+}
+
+#sec-4 #sec4-3 div.col-md-8{
+    margin-left:-1em;
+}
+
+#sec-5{
+    margin-top:0;
+}
+
+#sec-5 #sec5-3 div:nth-child(2) img{
+    margin-left:10em;
+}
+
+#sec-5 #sec5-4 div:nth-child(2) img{
+    margin-left:20em;
+}
 }
 
     

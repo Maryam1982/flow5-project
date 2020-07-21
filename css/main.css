@@ -124,52 +124,62 @@ div.container-fluid header div.row div.col-md-6 p.body-text {
     line-height: 1.588;
 }
 
-    div.container-fluid header div.row div.col-md-6 input#email {
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgb(235, 235, 235);
-        border-radius: 22.5px;
-        background-color: rgb(247, 247, 247);
-        top: 509px;
-        width: 368px;
-        height: 47px;
-        z-index: 13;
-        float: left;
-        padding-left: 31px;
-        margin-top: 27px;
-        color: rgb(137, 137, 137);
-        font-size: 16px;
-        font-family: "Poppins";
-        font-weight: 400;
-        line-height: 1.2;
-    }
+div.container-fluid header div.row div.col-md-6 input#email {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(235, 235, 235);
+    border-radius: 22.5px;
+    background-color: rgb(247, 247, 247);
+    top: 509px;
+    width: 368px;
+    height: 47px;
+    z-index: 13;
+    float: left;
+    padding-left: 31px;
+    margin-top: 27px;
+    color: rgb(137, 137, 137);
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 1.2;
+}
 
-    div.container-fluid header div.row div.col-md-6 input#submit {
-        background-color: rgb(239, 217, 20);
-        top: 511px;
-        width: 221px;
-        height: 45px;
-        z-index: 16;
-        margin-left: 10px;
-        border-color: rgb(239, 217, 20);
-        border-radius: 22.5px;
-        border-style: solid;
-        border-width: 1px;
-        /*font-family: 'Circular Std Bold';
-        font-size: 16px;*/
-        text-align: center;
-        margin-top: 27px;
-        /*text-transform: uppercase;
-        line-height: 1.5;*/
-        color: rgb(0, 0, 0);
 
-        font-size: 16px;
-        font-family: "Poppins";
-        color: rgb(18, 21, 29);
-        font-weight: 600;
-        text-transform: uppercase;
-        line-height: 1.5;
-    }
+div.container-fluid header div.row div.col-md-6 input#email:focus {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-radius: 22.5px;
+    background-color: rgb(255, 255, 255);
+}
+        
+        
+        
+div.container-fluid header div.row div.col-md-6 input#submit {
+    background-color: rgb(239, 217, 20);
+    top: 511px;
+    width: 221px;
+    height: 45px;
+    z-index: 16;
+    margin-left: 10px;
+    border-color: rgb(239, 217, 20);
+    border-radius: 22.5px;
+    border-style: solid;
+    border-width: 1px;
+    /*font-family: 'Circular Std Bold';
+font-size: 16px;*/
+    text-align: center;
+    margin-top: 27px;
+    /*text-transform: uppercase;
+line-height: 1.5;*/
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: "Poppins";
+    color: rgb(18, 21, 29);
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
 
 header div.row div.col-md-6 video {
     width: 626px;
@@ -1108,7 +1118,8 @@ ind4-active {
 #loc-desc {
     float: left;
     margin-top: 30px;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
+    margin-left: 0;
 }
 
 
@@ -1471,7 +1482,10 @@ header div.row div.col-md-6 video {
         margin-top: -10em;
     }
 
-    #sec-10 div.row div.col-md-5{
+    #loc-desc {
+        margin-left: -7em;
+    }
+        #sec-10 div.row div.col-md-5{
         padding-left:15em;
     }
 
@@ -1523,4 +1537,30 @@ header div.row div.col-md-6 video {
         margin-left: 14%;
     }
     
+}
+
+@media screen and (max-width: 1300px){
+
+#sec-4 .col-md-7 {
+    background-image: url(../img/Home_Page/sec-4/small-screen/smart_phone.png);
+    background-repeat: no-repeat;
+    height: 767px;
+}
+
+#sec-8 .row div.col-md-8 {
+    background-image: url(../img/Home_Page/sec-8/small-screen/background.png);
+    background-repeat: no-repeat;
+    height: 610px;
+    background-position: right;
+}
+
+    #loc-img img{
+        width:70%;
+        height:auto;
+    }
+
+    #loc-desc{
+        margin-left:0;
+    }
+
 }
