@@ -146,6 +146,7 @@ div.container-fluid header div.row div.col-md-6 input#email {
 
 
 div.container-fluid header div.row div.col-md-6 input#email:focus {
+    outline:none;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(197, 195, 195);
