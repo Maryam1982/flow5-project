@@ -1542,6 +1542,11 @@ header div.row div.col-md-6 video {
 
 @media screen and (max-width: 1300px){
 
+header div.row div.col-md-6 video {
+    width: 550px;
+    height: auto;
+}
+
 #sec-4 .col-md-7 {
     background-image: url(../img/Home_Page/sec-4/small-screen/smart_phone.png);
     background-repeat: no-repeat;
