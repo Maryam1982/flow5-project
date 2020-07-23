@@ -73,6 +73,17 @@ div.container-fluid header div.row {
 margin: 0;
 }
 
+.sticky {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(4, 154, 186);
+    height: 8em;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0px 5px 35px 3px #f2f2f2;
+}
+    
 div.container-fluid header div.row div.col-md-3 div.logo {
     margin-top: 17px;
 }
