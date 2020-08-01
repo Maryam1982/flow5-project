@@ -23,7 +23,7 @@ header {
 }
 
 .sticky {
-    width: 102%;
+    width: 100%;
     overflow: hidden;
     background-color: rgb(4, 154, 186);
     height: 8em;
@@ -31,6 +31,7 @@ header {
     top: 0;
     z-index: 3;
     box-shadow: 0px 5px 35px 3px #f2f2f2;
+    background: linear-gradient(to bottom, rgba(4, 154, 186,1), rgba(4, 154, 186, 1), rgba(4, 154, 186, 0.95), rgba(4, 154, 186, 0.35));
 }
 
 div.container-fluid {
@@ -166,6 +167,7 @@ div.container-fluid header div input#submit {
     height: 40px;
     border-radius: 20px;
     margin-top:0.5em;
+    outline:none;
 }
 
 #sec-2 div.col-md-4 div.btn.btn-primary a:hover{
@@ -202,7 +204,7 @@ div.container-fluid header div input#submit {
     /*display:inline-block;*/
     padding-left: 168px;
     padding-right: 100px;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 

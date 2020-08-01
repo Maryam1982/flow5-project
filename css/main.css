@@ -82,6 +82,7 @@ margin: 0;
     top: 0;
     z-index: 3;
     box-shadow: 0px 5px 35px 3px #f2f2f2;
+    background: linear-gradient(to bottom, rgba(4, 154, 186,1), rgba(4, 154, 186, 1), rgba(4, 154, 186, 0.95), rgba(4, 154, 186, 0.35));
 }
     
 div.container-fluid header div.row div.col-md-3 div.logo {
