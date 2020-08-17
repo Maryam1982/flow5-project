@@ -23,16 +23,17 @@ header {
 }
 
 .sticky {
-    width: 100%;
+    width: 102%;
     overflow: hidden;
     background-color: rgb(4, 154, 186);
-    height: 8em;
+    height: 4em;
     position: fixed;
     top: 0;
     z-index: 3;
     box-shadow: 0px 5px 35px 3px #f2f2f2;
-    background: linear-gradient(to bottom, rgba(4, 154, 186,1), rgba(4, 154, 186, 1), rgba(4, 154, 186, 0.95), rgba(4, 154, 186, 0.35));
+    /*background: linear-gradient(to bottom, rgba(4, 154, 186,1), rgba(4, 154, 186, 1), rgba(4, 154, 186, 0.95), rgba(4, 154, 186, 0.35));*/
 }
+
 
 div.container-fluid {
     overflow-x: hidden;
@@ -44,10 +45,11 @@ div.container-fluid header div.row div.col-md-3 div.logo {
     margin-top: 17px;
 }
 
-div.container-fluid header div.row div.col-md-3.menu_items ul {
+div.container-fluid header div.row div.col-md-3 #menu-items {
     float: right;
-    margin-top: 52px;
+    margin-top: 3.5em;
 }
+
 
 div.container-fluid header div.row div.col-md-3 ul li {
     display: inline-block;
@@ -168,11 +170,19 @@ div.container-fluid header div input#submit {
     border-radius: 20px;
     margin-top:0.5em;
     outline:none;
+    border:none;
 }
 
-#sec-2 div.col-md-4 div.btn.btn-primary a:hover{
-    text-decoration:none;
+#sec-2 div.col-md-4 div.btn.btn-primary:hover{
+    border:solid;
+    border-color:cornflowerblue;
+    border-width:1px;
 }
+    
+    
+    #sec-2 div.col-md-4 div.btn.btn-primary a:hover {
+        text-decoration: none;
+    }
     
 #sec-2 div.col-md-4 div.btn.btn-primary a h4 {
     color: rgb(255, 255, 255);
