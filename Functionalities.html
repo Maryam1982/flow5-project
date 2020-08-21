@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/functionalities.css" />
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet"/>
     <title>Flow5</title>
 </head>
 <body>
@@ -45,7 +46,7 @@
                 </div>
             </div>
             <div>
-                <h1 class="header-heading">
+                <h1 class="header-heading" id="test">
                     3 services <span>clé en main</span> qui apporteront<br />
                     de la valeur à votre entreprise
                 </h1>
@@ -182,7 +183,7 @@
 
         <div id="sec-5">
             <div style="padding-top:25em;margin-bottom:-20em;">
-                <div id="link-sec5-1"></div>
+                <div id="link-sec5-1" style="margin-top:-2em;padding-top: 3em;"></div>
             </div>
             <div id="sec5-1" class="row">
                 
@@ -198,7 +199,7 @@
 
                 </div>
             </div>
-            <div id="link-sec5-2"></div>
+            <div id="link-sec5-2" style="margin-top:-2em;padding-top: 3em;"></div>
             <div id="sec5-2" class="row">
                 <div class="col-md-4">
                     <img src="img/Functionalities/sec-5/sec5-2/Ellipse.png" /><h4>Gestion des retours (RMA)</h4>
@@ -212,7 +213,7 @@
 
                 </div>
             </div>
-            <div id="link-sec5-3"></div>
+            <div  style="margin-top:-2em;padding-top: 3em;" id="link-sec5-3"></div>
             <div id="sec5-3">
                 <div>
                     <img src="img/Functionalities/sec-5/sec5-3/Ellipse.png" /><h4>Gestion du SAV et des tickets</h4>
@@ -228,7 +229,7 @@
                     <img src="img/Functionalities/sec-5/sec5-3/flow.png" />
                 </div>
             </div>
-            <div id="link-sec5-4"></div>
+            <div id="link-sec5-4" style="margin-top:-2em;padding-top: 3em;"></div>
             <div id="sec5-4">
                 <div>
                     <img src="img/Functionalities/sec-5/sec5-4/Ellipse.png" /><h4>Personnalisation de documents</h4>
@@ -243,7 +244,7 @@
                     <img src="img/Functionalities/sec-5/sec5-4/flow.png" />
                 </div>
             </div>
-            <div id="link-sec5-5"></div>
+            <div style="margin-top:-2em;padding-top: 3em;" id="link-sec5-5"></div>
             <div id="sec5-5" class="row">
                 <div class="col-md-5">
                     <img src="img/Functionalities/sec-5/sec5-5/Ellipse.png" /><h4>Suivi de contrats</h4>
@@ -392,7 +393,23 @@
 
         var sticky = navbar.offsetTop;
 
-        function myFunction() {
+        function myFunction() { 
+
+            $("h3,h1").each(function () {
+                var imagePos = $(this).offset().top - 250;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight  && imagePos + imageHeight  > topOfWindow) {
+                    $(this).addClass("animate__animated animate__bounce");
+                } else {
+                    $(this).removeClass("animate__animated animate__bounce");
+                }
+            })
+
+            
+
+
             if (window.pageYOffset > sticky) {
                 navbar.classList.add("sticky");
                 $("#logo").attr("src", "img/Home_Page/header/logo_area/logo-white-mini.png");
@@ -401,6 +418,18 @@
                 navbar.classList.remove("sticky");
                 $("#logo").attr("src", "img/Home_Page/header/logo_area/logo-white.png");
                 $("#menu-items").css("margin-top", "3.5em");
+            }
+        }
+
+        function isInViewport(element) {
+            var imagePos = $(this).offset().top;
+            var imageHeight = $(this).height();
+            var topOfWindow = $(window).scrollTop();
+
+            if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                $(this).addClass("slideRight");
+            } else {
+                $(this).removeClass("slideRight");
             }
         }
     </script>
