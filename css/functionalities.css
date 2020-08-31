@@ -1013,12 +1013,13 @@ font-family: "Circular Std Medium";*/
 
 
 
+.animate__bounceInDown {
+    animation-delay:10ms;
+}
 
 
 @media screen and /*(max-width: 1920px)*/ (min-width: 1400px) {
-
-
-header {
+    header {
     background-image: url('../img/Functionalities/header/wide-screen/background.png');
     background-repeat: no-repeat;
     height: 557px;
@@ -1157,9 +1158,9 @@ div.container-fluid header div:nth-child(2) {
 }
 
 
-@media screen and (max-width: 1300px) {
 
-#sec-2 {
+@media screen and (max-width: 1300px) {
+    #sec-2 {
     width: 100%;
 }
 

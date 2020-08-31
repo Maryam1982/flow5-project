@@ -395,15 +395,89 @@
 
         function myFunction() { 
 
-            $("h3,h1").each(function () {
-                var imagePos = $(this).offset().top - 250;
+            $("h1").each(function () {
+                var imagePos = $(this).offset().top;
                 var imageHeight = $(this).height();
                 var topOfWindow = $(window).scrollTop();
 
-                if (imagePos < topOfWindow + imageHeight  && imagePos + imageHeight  > topOfWindow) {
+                if (imagePos < topOfWindow + imageHeight+50  && imagePos + imageHeight  > topOfWindow) {
                     $(this).addClass("animate__animated animate__bounce");
                 } else {
                     $(this).removeClass("animate__animated animate__bounce");
+                }
+            })
+
+            $("#sec-2 > .col-md-8").each(function () {
+                var imagePos = $(this).offset().top;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                    $(this).addClass("animate__animated animate__rubberBand");
+                } else {
+                    $(this).removeClass("animate__animated animate__rubberBand");
+                }
+            })
+
+            $("#sec-3 > h3").each(function () {
+                var imagePos = $(this).offset().top;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
+                    $(this).addClass("animate__animated animate__backInRight");
+                } else {
+                    $(this).removeClass("animate__animated animate__backInRight");
+                }
+            })
+
+            $("#sec-4 > h3").each(function () {
+                var imagePos = $(this).offset().top;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight + 250 && imagePos + imageHeight > topOfWindow) {
+                    $(this).addClass("animate__animated animate__backInLeft");
+                } else {
+                    $(this).removeClass("animate__animated animate__backInLeft");
+                }
+            })
+
+            $("#sec-6 > h3").each(function () {
+                var imagePos = $(this).offset().top;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight + 250 && imagePos + imageHeight > topOfWindow) {
+                    $(this).addClass("animate__animated animate__swing");
+                } else {
+                    $(this).removeClass("animate__animated animate__swing");
+                }
+            })
+
+            $("#bg-img").each(function () {
+                var imagePos = $(this).offset().top;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight + 50) {
+                    $(this).addClass("animate__animated animate__zoomIn");
+                    $(this).removeClass("invisible")
+                } else {
+                    $(this).removeClass("animate__animated animate__zoomIn");
+
+                }
+            })
+
+            $("#sec-7 > h3").each(function () {
+                var imagePos = $(this).offset().top;
+                var imageHeight = $(this).height();
+                var topOfWindow = $(window).scrollTop();
+
+                if (imagePos < topOfWindow + imageHeight + 250 ) {
+                    $(this).addClass("animate__animated animate__bounceInDown");
+                } else {
+                    $(this).removeClass("animate__animated animate__bounceInDown");
                 }
             })
 

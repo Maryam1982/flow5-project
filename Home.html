@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet" />
     <title>Flow5</title>
 </head>
 <body>
@@ -48,7 +51,7 @@
             <!--<div class="container-fluid">-->
             <div class="row">
                 <div class="col-md-6">
-                    <p class="header-heading">
+                    <p class="header-heading animate__animated animate__backInLeft">
                         Intégrer de nouveaux services <br />
                         en 5 minutes chrono
                     </p>
@@ -84,7 +87,7 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/Home_Page/sec-2/col-1.png" />
+                    <img src="img/Home_Page/sec-2/col-1.png"/>
                     <h3>Être réactif pour ses prospects</h3>
                     <ul>
                         <li>Demande d'échantillons</li>
@@ -106,7 +109,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/Home_Page/sec-2/col-2.png" />
+                    <img src="img/Home_Page/sec-2/col-2.png"/>
                     <h3>Accompagner ses clients en temps réel</h3>
                     <ul>
                         <li>Suivi en temps réel de vos interventions chez
@@ -130,7 +133,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/Home_Page/sec-2/col-3.png" />
+                    <img src="img/Home_Page/sec-2/col-3.png"/>
                     <h3>Télétravail et coopération</h3>
                     <ul>
                         <li>Travail en équipe collaboratif</li>
@@ -408,7 +411,7 @@
                             <img id="loc3" class="loc" data-desc="Votre agence  vient à votre rencontre" name="Valenciennes"/>
                             <img id="loc4" class="loc" data-desc="Votre agence  vient à votre rencontre" name="Maubeuge"/>
                             <img id="loc5" class="loc" data-desc="Votre agence  vient à votre rencontre" name="Arras"/>
-                            <img id="loc6" class="loc" data-desc="Votre agence  vient à votre rencontre" name="Strasbourg" style="position:absolute;left:542px;top:146px;" />
+                            <img id="loc6" class="loc" data-desc="Votre agence  vient à votre rencontre" name="Strasbourg" />
 
 
                             <img id="loc7" class="loc" data-desc="Votre agence  vient à votre rencontre" name="Mulhouse" style="position:relative;left:517px;top:190px;" />
@@ -565,13 +568,40 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/jquery.maphilight.js"></script>
 
         <script>
             $(document).ready(function () {
+
+                $("#sec-2 > .row > .col-md-4 > img").mouseenter(function () {
+                    
+                    $(this).addClass("flip-vertical-right").delay(100);
+                    $(this).stop(15);            
+                });
+
+                $("#sec-2 > .row > .col-md-4 > img").mouseout(function () {
+                    $(this).stop(15);
+                    $(this).removeClass("flip-vertical-right").delay(100);
+                });
+
+
+
+                $("#sec-3 > div > div > div > a > div").mouseenter(function () {
+
+                    $(this).addClass("shake-horizontal").delay(100);
+                    $(this).stop(15);
+                });
+
+                $("#sec-3 > div > div > div > a > div").mouseout(function () {
+                    $(this).stop(15);
+                    $(this).removeClass("shake-horizontal").delay(100);
+                });
+                
 
                window.onscroll = function () { myFunction() };
 
@@ -583,6 +613,204 @@
 
                 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
                 function myFunction() {
+
+                    $("header > .row > .col-md-6 > .header-heading").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight  && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__backInLeft");
+                        } else {
+                            $(this).removeClass("animate__animated animate__backInLeft");
+                        }
+                    })
+
+                    $("#sec-2 > h1").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInLeft");
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                        }
+                    })
+
+                    $("#sec-3 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInRight");
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInRight");
+                        }
+                    })
+
+                    $("#sec-3 > p").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 250 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInLeft").delay(20);
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                        }
+                    })
+
+                    $("#sec-4 > .row > .col-md-7").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInRight");
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInRight");
+                        }
+                    })
+
+                    $("#sec-4 > .row > .col-md-5 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInLeft");
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                        }
+                    })
+
+                    $("#sec-5 > .row > .col-md-7").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__pulse").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__pulse");
+                        }
+                    })
+
+                    $("#sec-5 > .row > .col-md-5 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 150 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInRight").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInRight");
+                        }
+                    })
+
+                    $("#sec-6 > .row > .col-md-5 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 150 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInLeft").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                        }
+                    })
+
+                    $("#sec-6 > .row > .col-md-7").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__rubberBand").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__rubberBand");
+                        }
+                    })
+
+                    $("#sec-7 > .row > .col-md-5 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 150 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInRight").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInRight");
+                        }
+                    })
+
+                    $("#sec-7 > .row > .col-md-7").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__shakeX").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__shakeX");
+                        }
+                    })
+
+                    $("#sec-8 > .row > .col-md-8").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__tada").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__tada");
+                        }
+                    })
+
+                    $("#sec-8 > .row > .col-md-4 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__bounceInLeft").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                        }
+                    })
+
+                    $("#sec-9 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 100 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__swing").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__swing");
+                        }
+                    })
+
+                    $("#sec-10 > h3").each(function () {
+                        var imagePos = $(this).offset().top;
+                        var imageHeight = $(this).height();
+                        var topOfWindow = $(window).scrollTop();
+
+                        if (imagePos < topOfWindow + imageHeight + 200 && imagePos + imageHeight > topOfWindow) {
+                            $(this).addClass("animate__animated animate__wobble").delay(100);
+                        } else {
+                            $(this).removeClass("animate__animated animate__wobble");
+                        }
+                    })
+
+
+
+
+
+
                     if (window.pageYOffset > sticky) {
                         navbar.classList.add("sticky");
                         $("#logo").attr("src", "img/Home_Page/header/logo_area/logo-white-mini.png");
