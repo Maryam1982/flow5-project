@@ -51,7 +51,7 @@
             <!--<div class="container-fluid">-->
             <div class="row">
                 <div class="col-md-6">
-                    <p class="header-heading animate__animated animate__backInLeft">
+                    <p class="header-heading slide-in-fwd-center">
                         Intégrer de nouveaux services <br />
                         en 5 minutes chrono
                     </p>
@@ -579,15 +579,10 @@
             $(document).ready(function () {
 
                 $("#sec-2 > .row > .col-md-4 > img").mouseenter(function () {
-                    
-                    $(this).addClass("flip-vertical-right").delay(100);
-                    $(this).stop(15);            
+
+                    $(this).toggleClass("scale-up-top");
                 });
 
-                $("#sec-2 > .row > .col-md-4 > img").mouseout(function () {
-                    $(this).stop(15);
-                    $(this).removeClass("flip-vertical-right").delay(100);
-                });
 
 
 
@@ -632,9 +627,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInLeft");
+                            $(this).addClass("slide-in-fwd-center");
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -644,9 +639,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInRight");
+                            $(this).addClass("slide-in-fwd-center");
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInRight");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -656,9 +651,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 250 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInLeft").delay(20);
+                            $(this).addClass("slide-in-fwd-center").delay(20);
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -668,9 +663,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInRight");
+                            $(this).addClass("scale-up-top");
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInRight");
+                            $(this).removeClass("scale-up-top");
                         }
                     })
 
@@ -680,9 +675,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 50 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInLeft");
+                            $(this).addClass("slide-in-fwd-center");
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -692,9 +687,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__pulse").delay(100);
+                            $(this).addClass("scale-up-top").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__pulse");
+                            $(this).removeClass("scale-up-top");
                         }
                     })
 
@@ -704,9 +699,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 150 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInRight").delay(100);
+                            $(this).addClass("slide-in-fwd-center").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInRight");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -716,9 +711,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 150 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInLeft").delay(100);
+                            $(this).addClass("slide-in-fwd-center").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -728,9 +723,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__rubberBand").delay(100);
+                            $(this).addClass("scale-up-top").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__rubberBand");
+                            $(this).removeClass("scale-up-top");
                         }
                     })
 
@@ -740,9 +735,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 150 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInRight").delay(100);
+                            $(this).addClass("slide-in-fwd-center").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInRight");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -752,9 +747,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__shakeX").delay(100);
+                            $(this).addClass("scale-up-top").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__shakeX");
+                            $(this).removeClass("scale-up-top");
                         }
                     })
 
@@ -764,9 +759,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__tada").delay(100);
+                            $(this).addClass("scale-up-top").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__tada");
+                            $(this).removeClass("scale-up-top");
                         }
                     })
 
@@ -776,9 +771,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__bounceInLeft").delay(100);
+                            $(this).addClass("slide-in-fwd-center").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__bounceInLeft");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -788,9 +783,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 100 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__swing").delay(100);
+                            $(this).addClass("slide-in-fwd-center").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__swing");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
@@ -800,9 +795,9 @@
                         var topOfWindow = $(window).scrollTop();
 
                         if (imagePos < topOfWindow + imageHeight + 200 && imagePos + imageHeight > topOfWindow) {
-                            $(this).addClass("animate__animated animate__wobble").delay(100);
+                            $(this).addClass("slide-in-fwd-center").delay(100);
                         } else {
-                            $(this).removeClass("animate__animated animate__wobble");
+                            $(this).removeClass("slide-in-fwd-center");
                         }
                     })
 
