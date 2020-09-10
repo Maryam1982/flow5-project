@@ -588,14 +588,10 @@
 
                 $("#sec-3 > div > div > div > a > div").mouseenter(function () {
 
-                    $(this).addClass("shake-horizontal").delay(100);
-                    $(this).stop(15);
+                    $(this).toggleClass("scale-up-top");
                 });
 
-                $("#sec-3 > div > div > div > a > div").mouseout(function () {
-                    $(this).stop(15);
-                    $(this).removeClass("shake-horizontal").delay(100);
-                });
+                
                 
 
                window.onscroll = function () { myFunction() };
