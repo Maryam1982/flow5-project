@@ -24,7 +24,7 @@ locations.forEach((loc) => {
       ".loc-desc-text-container ul li"
     );
     const relatedImage = document.querySelector(".loc-desc-container img");
-    const imgURL = `../img/Home_Page/sec-10/${event.target.getAttribute(
+    const imgURL = `./img/Home_Page/sec-10/${event.target.getAttribute(
       "id"
     )}_img.png`;
     relatedImage.src = imgURL;
@@ -36,7 +36,7 @@ const slideInfos = [
   {
     nav: "ind-1",
     color: "rgb(239, 218, 21)",
-    img: "../img/Home_Page/sec-9/c1-cropped.png",
+    img: "./img/Home_Page/sec-9/c1-cropped.png",
     title: "Mes clients suivent nos actions en direct",
     body: `Une fois un flow créé par une demande client, un lien unique
   est généré.
@@ -50,7 +50,7 @@ const slideInfos = [
   {
     nav: "ind-2",
     color: "rgb(3, 175, 240)",
-    img: "../img/Home_Page/sec-9/c2.png",
+    img: "./img/Home_Page/sec-9/c2.png",
     title: "Mes clients sont mieux servis et plus vite",
     body: `Depuis mon smartphone ou mon ordinateur je sais ce que je
     dois faire.
@@ -65,7 +65,7 @@ const slideInfos = [
   {
     nav: "ind-3",
     color: "rgb(242, 47, 118)",
-    img: "../img/Home_Page/sec-9/c3.png",
+    img: "./img/Home_Page/sec-9/c3.png",
     title: "Je communique facilement avec mes prestataires",
     body: `Je centralise tous les messages (email, courrier, SMS, PDF,
       formulaires...).
@@ -77,7 +77,7 @@ const slideInfos = [
   {
     nav: "ind-4",
     color: "rgb(141, 38, 165)",
-    img: "../img/Home_Page/sec-9/c4.png",
+    img: "./img/Home_Page/sec-9/c4.png",
     title: "Je connais KPI de mon entreprise en temps réel",
     body: `Le temps de réponse, le nombre d'interventions, le nombre de
     leads
