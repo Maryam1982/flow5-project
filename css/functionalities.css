@@ -173,6 +173,11 @@
   padding: 0 2.5rem;
 }
 
+.turn-key-solutions .section-title {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+}
+
 .turn-key-solution {
   display: flex;
   flex-direction: row;
@@ -540,6 +545,12 @@
 
   .set-up-content {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 49.875em) {
+  .turn-key-solutions {
+    margin-top: 5rem;
   }
 }
 
