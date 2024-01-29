@@ -178,9 +178,9 @@ function changeSlide(i) {
   }, 2500);
 }
 
-// setInterval(() => {
-//   if (automaticNav) {
-//     currentIndex = currentIndex + 1 >= slideInfos.length ? 0 : currentIndex + 1;
-//     changeSlide(currentIndex);
-//   }
-// }, 6000);
+setInterval(() => {
+  if (automaticNav) {
+    currentIndex = currentIndex + 1 >= slideInfos.length ? 0 : currentIndex + 1;
+    changeSlide(currentIndex);
+  }
+}, 6000);
