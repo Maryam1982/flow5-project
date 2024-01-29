@@ -1215,6 +1215,7 @@ span {
 @media screen and (max-width: 73.437em) {
   .section-title {
     margin: 0 auto 2rem auto;
+    text-align: center;
   }
 
   .testimonials .section-title {
